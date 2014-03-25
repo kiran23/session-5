@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe User do
 
-		let(:user) { User.new }
+	let(:user) { User.new }
 
 	it { should respond_to(:age) }
 	it { should respond_to(:name) }
